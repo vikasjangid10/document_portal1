@@ -37,15 +37,3 @@ with tab2:
         st.write("Differences:")
         st.code("\n".join(result['differences']) if result['differences'] else "No significant differences found.")
 
-st.title("Document Portal - AI Analysis")
-
-uploaded_file = st.file_uploader("Upload a PDF document", type=["pdf"])
-
-if uploaded_file:
-    file_path = os.path.join("data", "uploaded_" + uploaded_file.name)
-    with open(file_path, "wb") as f:
-        f.write(uploaded_file.getbuffer())
-    st.success(f"Uploaded {uploaded_file.name}")
-    # Analyze document (dummy function for now)
-    result = analyze_document(file_path) # type: ignore
-    st.write("Analysis Result:", result)
