@@ -53,7 +53,7 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<h1 class="main-header">📚 Document Portal - AI Analysis By Vikas</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📚 Document Portal - AI Analysis</h1>', unsafe_allow_html=True)
     
     # Sidebar for navigation
     st.sidebar.title("Navigation")
