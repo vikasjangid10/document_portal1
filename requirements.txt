@@ -1,0 +1,25 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-google-genai
+python-dotenv
+ipykernel
+pypdf
+faiss-cpu
+structlog
+PyMuPDF
+streamlit
+pydantic
+typing-extensions
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+plotly
+tiktoken
+sentence-transformers
+transformers
+torch
+-e .
